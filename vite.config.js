@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(),tailwindcss()],
     
     "compilerOptions": {
-      "baseUrl": "'/Portfolio/'",
+      "baseUrl": "/Portfolio/",
       "paths": {
         "@/*": ["./src/*"]
       
